@@ -95,4 +95,9 @@ lspconfig.rust_analyzer.setup({
     }
 })
 
+
+lspconfig.omnisharp.setup({
+    cmd = { "D:/tools/omnisharp/omnisharp.exe", "--languageserver" , "--hostPID", tostring(pid) },
+})
+
 return M
