@@ -100,4 +100,6 @@ lspconfig.omnisharp.setup({
     cmd = { "D:/tools/omnisharp/omnisharp.exe", "--languageserver" , "--hostPID", tostring(pid) },
 })
 
+lspconfig.tsserver.setup{}
+
 return M
