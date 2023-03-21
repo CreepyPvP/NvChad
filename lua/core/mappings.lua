@@ -152,12 +152,12 @@ M.lspconfig = {
       "lsp definition",
     },
 
-    ["K"] = {
-      function()
-        vim.lsp.buf.hover()
-      end,
-      "lsp hover",
-    },
+--  ["K"] = {
+--  function()
+--        vim.lsp.buf.hover()
+--      end,
+--      "lsp hover",
+--    },
 
     ["gi"] = {
       function()
