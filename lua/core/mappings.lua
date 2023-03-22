@@ -30,6 +30,8 @@ M.general = {
     ["<C-j>"] = { "<C-w>j", "window down" },
     ["<C-k>"] = { "<C-w>k", "window up" },
 
+    ["<leader>s"] = { "<cmd>vsplit <CR>", "split"},
+
     -- save
     ["<C-s>"] = { "<cmd> w <CR>", "save file" },
 
